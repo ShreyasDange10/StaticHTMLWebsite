@@ -1,0 +1,636 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700;800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.header{
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    font-family: 'Nunito Sans', sans-serif;
+    justify-content: space-between;
+    padding: 8px 0;
+}
+
+.select{
+    color: rgb(154,143,159);
+    height: 27px;
+    width: 51px;
+    margin-left: 15px;
+}
+
+.one{
+    display: flex;
+}
+
+.queen{
+    color: rgb(154,143,159);
+    font-size: 15px;
+}
+
+.fa-solid{
+    font-size: 12px;
+}
+
+.two{
+    display: flex;
+    padding-top: 12px;
+    margin-right: 15%;
+}
+
+.num{
+    color: rgb(176,145,79);
+    font-size: 14px;
+}
+
+.navbar ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding-top: 3px;
+    width: 100%;
+}
+
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Nunito Sans', sans-serif;
+    width: 100%;
+    background-color: white;
+    margin: 10px auto 5px;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.navbar .img{
+    margin-left: 15%;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.navbar li{
+    padding: 10px 15px;
+}
+
+.two a:hover{
+    color: rgb(176,145,79);
+}
+
+.navbar button{
+    background-color: rgb(176,145,79);
+    height: 49px;
+    width: 150px;
+    border: none;
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.navbar button:hover{
+    background-color: #69582c;
+    transition: all 0.2s;
+    color: white;
+    cursor: pointer;
+}
+
+.aboutus{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('/IMG/background.jpg');
+    height: 310px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+.usabout{
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    padding: 120px 0 90px;
+}
+
+.angle{
+    font-family: 'Nunito Sans', sans-serif;
+    color: rgb(191,192,192);
+    font-weight: 400;
+    font-size: 15px;
+    padding: 16px 0 8px;
+}
+
+.fa-angle-right{
+    font-size: 13px;
+    font-weight: 700;
+    margin: 0 !important;
+}
+
+.reservation h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    margin-bottom: 24px;
+}
+
+.yes{
+    color: rgb(176,145,79);
+    margin-right: 24px;
+    font-size: 20px;
+}
+
+.company h2{
+    margin-top: 48px !important;
+}
+
+.support{
+    width: 100%;
+    background-color: rgb(249,249,249);
+    display: flex;
+    flex-wrap: wrap;
+    
+    padding: 100px 0;
+}
+
+.reservation{
+    width: 28%;
+    margin-left: 15%;
+    height: 328px;
+}
+
+.support p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 15px;
+    margin-bottom: 8px;
+    line-height: 27px !important;
+}
+
+.reservation h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    margin: 40px 0 24px 0 ;
+}
+
+.fab{
+    margin: 0 8px 16px 0;
+}
+
+.fav{
+    font-size: 22px;
+    margin-right: 15px;
+}
+
+.reservation a{
+    color: black;
+}
+
+
+.touch{
+    width: 42%;
+}
+
+.touch h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    margin-bottom: 16px;
+}
+
+.touch p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 15px;
+    color: rgb(154,143,159);
+    margin-bottom: 48px;
+}
+
+.call p{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    color: black;
+}
+
+.call p span{
+    font-size: 32px;
+}
+
+.call{
+    background-color: white;
+    padding: 48px;
+    height: 142px;
+    
+}
+
+.popular{
+    text-align: center;
+}
+
+.bout{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    color: rgb(176,145,79);
+    letter-spacing: 2.8px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    padding-top: 100px;
+    margin-bottom: 16px;
+}
+
+.popular h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    margin-bottom: 16px;
+}
+
+.vokalia{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 15px;
+    color: rgb(123,123,123);
+    padding: 0 25%;
+    margin-top: 16px;
+}
+
+.vokalia::after{
+    content: '';
+    display: block;
+    width: 40px;
+    height: 0;
+    border-bottom: 3.5px solid rgb(176,145,79);
+    margin: 24px auto 70px;
+}
+
+.hello{
+    height: 45px;
+    width: 302px;
+    padding: 6px 12px;
+    font-weight: 400;
+    font-family: 'Nunito Sans', sans-serif;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.hellow{
+    height: 45px;
+    width: 302px;
+    padding: 6px 12px;
+    font-weight: 400;
+    font-family: 'Nunito Sans', sans-serif;
+    margin-left: 12px;
+    margin-bottom: 15px;
+}
+
+input:focus{
+    border: none;
+    outline: 1px solid rgb(176,145,79);
+}
+
+.fello{
+    height: 45px;
+    width: 635px;
+    padding: 6px 12px;
+    font-family: 'Nunito Sans', sans-serif;
+    margin-bottom: 15px;
+}
+
+.fellow{
+    height: 158px;
+    width: 635px;
+    padding: 6px 12px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Nunito Sans', sans-serif;
+    margin-bottom: 15px;
+}
+
+.hellos{
+    border: 1px solid rgb(206,212,218);
+}
+
+.forms button{
+    width: 163px;
+    height: 49px;
+    background-color: rgb(176,145,79);
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: white;
+    border: none;
+}
+
+.forms button:hover{
+    background-color: #69582c;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.forum{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+
+.map h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+
+/* ==========FOOTER================= */
+
+.footer{
+    clear: both;
+    background-color: rgb(240,240,240);
+}
+
+.foot{
+    display: flex;
+    width: 75%;
+    margin: 0 auto;
+    padding: 60px 0 48px;
+}
+
+.eden{
+    width: 255px;
+    margin: 0 15px;
+}
+
+.eden h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.eden p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 15px;
+    color: rgb(108,117,125);
+    line-height: 27px;
+}
+
+.address{
+    width: 255px;
+    margin: 0 15px;
+}
+
+.address h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.address p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    margin: 10px 0;
+    line-height: 28px;
+}
+
+.fat{
+    color: rgb(176,145,79);
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.quick{
+    width: 255px;
+    margin: 0 15px;
+}
+
+.quick h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.quick li{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    color: rgb(108,117,125);
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.quick .fa-angle-right{
+    font-size: 13px;
+    font-weight: 700;
+    margin-right: 10px !important;
+}
+
+.company{
+    width: 255px;
+    margin: 0 15px;
+}
+
+.company h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.company p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    color: rgb(108,117,125);
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.company h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    margin: 24px 0;
+}
+
+.company a{
+    color: rgb(176,145,79);
+    margin: 0px 3px;
+}
+
+.quick li:hover{
+    color: rgb(176,145,79);
+}
+
+.company p:hover{
+    color: rgb(176,145,79);
+    cursor: pointer;
+}
+
+.fa-copyright{
+    font-size: 13px;
+    margin: 24px 0;
+}
+
+.copyright{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+.theme{
+    color: rgb(176,145,79);
+}
+
+.copyright::before{
+    content: '';
+    display: block;
+    border: none;
+    border-bottom: 2px solid white;
+}
+
+@media screen and (min-width: 320px) and (max-width:480px){
+
+    /* =====HEADER====== */
+    .header{
+        display: block;
+        margin: 0;
+        padding: 8px 15px;
+        width: 100%;
+    }
+
+    .one{
+        padding: 15px 0 0px 100px;
+    }
+
+    ul{
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .two{
+        display: block;
+        margin: auto;
+    }
+
+    /* ========NAVBAR========== */
+
+    .navbar{
+        margin: 0;
+        width: 100%;
+        position: static;
+    }
+
+    .navbar img{
+        margin: 10px auto ;
+    }
+
+    .plan{
+        font-size: 38px;
+        margin: 0 20px;
+    }
+
+    .navbar button{
+        margin-left: 10px;
+    }
+
+    .lorem{
+        width: 100%;
+        margin: auto;
+        padding: 0 5px ;
+    }
+
+    /* =========ABOUT US========== */
+
+    .aboutus{
+        margin-top: 50px;
+    }
+
+    .support{
+        width: 100%;
+        display: block;
+    }
+
+    .reservation{
+        width: 100%;
+        padding: 0 15px;
+        margin: 0;
+        line-height: 27px;
+    }
+
+    .touch{
+        width: 100%;
+        margin: 0;
+        padding: 0 15px;
+    }
+
+    /* =============SECTION DROP ============= */
+
+    .popular{
+        width: 100%;
+        margin: 0;
+        padding: 0 15px;
+    }
+
+    .vokalia{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        line-height: 27px;
+    }
+
+    /* ===========FORUM ================== */
+
+    .forum{
+        width: 100%;
+        margin: 0;
+        padding: 0 15px 100px;
+    }
+
+
+    .hellos{
+        width: 290px;
+        margin-bottom: 12px;
+    }
+
+    .hellow{
+        margin: 0 0 12px 0;
+    }
+
+    .map{
+        width: 100%;
+    }
+
+    .map h1{
+        margin: 24px 0 16px;
+        width: 100%;
+    }
+
+    .naksha{
+        width: 100%;
+    }
+
+     /* ============FOOTER=============== */
+
+     .foot{
+        display: block;
+        width: 100%;
+        padding: 60px 15px 24px;
+    }
+
+    .quick ul{
+        text-align: left;
+    }
+
+    .eden, .address, .quick, .company{
+        margin: 0;
+    }
+
+    .copyright{
+        padding: 0 0 24px 0;
+    }
+}
